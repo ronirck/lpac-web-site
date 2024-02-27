@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img/pxfuel.jpg);
+}
+.neon{
+    text-shadow: 0 0 5px #0d6efd, 0 0 25px #0d6efd, 0 0 50px #0d6efd;
+    color: #0d6efd;
+}
+.bg-h{
+    background-color: #292735;
+}
+.bg-1{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:auto; 
+    background-attachment: fixed;    
+}
+.martop{
+    margin-top: 1rem;
+}
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 4px #000;
+}
+.titulo2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.card{
+    background-color: #0d6efd;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000;
+}
+.boton1{
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #0d6efd;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+}
+.boton1:hover{
+    background: #0d6efd;
+    color: #050801;
+    box-shadow: 0 0 5px #0d6efd, 0 0 25px #0d6efd, 0 0 50px #0d6efd;
+}
+.lineaTitulo{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+.lineaTitulo::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #0d6efd, 0 0 25px #0d6efd, 0 0 50px #0d6efd;
+    background-color: #0d6efd;
+    transition: .5s;
+}
+.lineaTitulo:hover::before{
+    width: 100%;
+}
